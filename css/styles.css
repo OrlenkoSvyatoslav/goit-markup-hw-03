@@ -1,28 +1,57 @@
+/* ============== COMMON STYLES ============== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ul,
 ol {
   list-style-type: none;
 }
 
+img {
+  display: block;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
 a {
   text-decoration: none;
+}
+
+.container {
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 button {
   cursor: pointer;
 }
 
-.logotype-span-studio {
-  color: #2e2f42;
-}
-
-.logotype-span-studio-footer {
-  color: #f4f4fd;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
+}
+
+/* ============== PAGE HEADER ============== */
+
+.logotype-span-studio {
+  color: #2e2f42;
 }
 
 .logotype {
@@ -33,6 +62,26 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  column-gap: 40px;
 }
 
 .menu-link {
@@ -58,6 +107,11 @@ body {
   font-style: normal;
 }
 
+.contacts-item {
+  display: flex;
+  column-gap: 40px;
+}
+
 .contacts-item-link {
   color: #434455;
 }
@@ -76,23 +130,42 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* ============== HERO SECTION ============== */
+
 .hero {
   background-color: #2e2f42;
   color: #fff;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 188px 0;
+  text-align: center;
+}
+
+.main-title {
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .order-btn {
+  display: inline-block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
+  text-align: center;
+  padding: 16px 32px;
 }
+
 .order-btn:hover,
 .order-btn:focus {
   background-color: #404bbf;
 }
+
+/* ============== OUR BENEFITS ============== */
 
 .benefits-list-header {
   color: #2e2f42;
@@ -101,6 +174,19 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+
+.benefits-title {
+  display: none;
+}
+
+.benefits {
+  padding: 120px 0;
+}
+
+.benefits-item {
+  display: flex;
+  gap: 24px;
 }
 
 .benefits-item-text {
@@ -112,8 +198,11 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* ============== TEAM DREAM ============== */
+
 .team-dream-class {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-dream-title {
@@ -125,6 +214,16 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-bottom: 72px;
+}
+
+.team-dream-item {
+  display: flex;
+  gap: 24px;
+}
+
+.team-dream-img {
+  padding-bottom: 32px;
 }
 
 .team-dream-name {
@@ -143,11 +242,30 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 8px;
+  padding-bottom: 32px;
 }
 
 .team-dream-item-list {
   background-color: #fff;
   color: #2e2f42;
+  text-align: center;
+}
+
+/* ============== PORTFOLIO ============== */
+
+.portfolio {
+  padding: 120px 0;
+}
+
+.portfolio-title {
+  color: #2e2f42;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-header {
@@ -159,6 +277,15 @@ body {
   letter-spacing: 0.02em;
 }
 
+.portfolio-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  text-align: center;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
 .portfolio-text {
   color: #434455;
   font-family: 'Roboto', sans-serif;
@@ -168,8 +295,11 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* ============== FOOTER ============== */
+
 .team-dream-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .team-dream-footer-text {
@@ -179,4 +309,19 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
+  padding-top: 16px;
+}
+.logotype-span-studio-footer {
+  color: #f4f4fd;
+}
+
+.logotype-footer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
