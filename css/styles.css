@@ -46,6 +46,7 @@ button {
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
+  font-size: 16px;
   background-color: #ffffff;
 }
 
@@ -90,8 +91,6 @@ body {
 
 .menu-link {
   color: #2e2f42;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -103,8 +102,6 @@ body {
 }
 
 .contacts {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -185,7 +182,6 @@ body {
 
 .benefits-list-header {
   color: #2e2f42;
-  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -207,9 +203,6 @@ body {
 }
 
 .benefits-item-text {
-  color: #434455;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -217,15 +210,27 @@ body {
 
 /* ============== TEAM DREAM ============== */
 
-.team-dream-class {
+.team-dream {
   background-color: #f4f4fd;
   padding: 120px 0;
+}
+
+.team-dream-item {
+  display: flex;
+  gap: 24px;
+}
+.team-list-item {
+  padding: 32px 0;
+  background-color: #ffffff;
+}
+
+.team-dream-item-list {
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-dream-title {
   color: #2e2f42;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -234,37 +239,23 @@ body {
   padding-bottom: 72px;
 }
 
-.team-dream-item {
-  display: flex;
-  gap: 24px;
-}
-
 .team-dream-name {
   color: #2e2f42;
-  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   padding-top: 32px;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .team-dream-text {
-  color: #434455;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding-bottom: 32px;
-}
-
-.team-dream-item-list {
-  background-color: #fff;
-  color: #2e2f42;
   text-align: center;
-  border-radius: 0px 0px 4px 4px;
 }
 
 /* ============== PORTFOLIO ============== */
@@ -276,7 +267,6 @@ body {
 .portfolio-title {
   color: #2e2f42;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -285,7 +275,6 @@ body {
 
 .portfolio-header {
   color: #2e2f42;
-  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -303,8 +292,6 @@ body {
 
 .portfolio-text {
   color: #434455;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -319,8 +306,6 @@ body {
 
 .team-dream-footer-text {
   color: #f4f4fd;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
