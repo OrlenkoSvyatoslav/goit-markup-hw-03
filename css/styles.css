@@ -122,15 +122,6 @@ body {
   color: #404bbf;
 }
 
-.main-title {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-}
-
 /* ============== HERO SECTION ============== */
 
 .hero {
@@ -144,6 +135,12 @@ body {
 }
 
 .main-title {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
