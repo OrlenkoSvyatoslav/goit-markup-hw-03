@@ -111,7 +111,7 @@ body {
 
 .contacts-item {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .contacts-item-link {
@@ -121,6 +121,10 @@ body {
 .contacts-item-link:hover,
 .contacts-item-link:focus {
   color: #404bbf;
+}
+
+.header-link {
+  padding: 24px 0;
 }
 
 /* ============== HERO SECTION ============== */
@@ -189,7 +193,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .benefits {
@@ -202,7 +206,7 @@ body {
 }
 
 .benefits-item-list {
-  width: calc((100% - 72px) / 4);
+  width: calc((100%-72px) / 4);
 }
 
 .benefits-item-text {
@@ -229,6 +233,7 @@ body {
 
 .team-dream-item-list {
   border-radius: 0px 0px 4px 4px;
+  width: calc((100%-72px) / 4);
 }
 
 .team-dream-title {
@@ -239,7 +244,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-dream-name {
@@ -313,6 +318,10 @@ body {
   padding: 120px 0;
 }
 
+.team-dream-item-list {
+  width: calc((100% - 48px) / 3);
+}
+
 /* ============== FOOTER ============== */
 
 .team-dream-footer {
@@ -326,7 +335,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-  padding-top: 16px;
+  margin-top: 16px;
 }
 .logotype-span-studio-footer {
   color: #f4f4fd;
@@ -340,4 +349,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+
+.link-footer {
+  display: inline-block;
 }
