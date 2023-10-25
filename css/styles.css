@@ -274,7 +274,7 @@ body {
   border-top: none;
 }
 
-.portfolio-item-list {
+.portfolio-item-list-first {
   width: calc((100% - 48px) / 3);
 }
 
