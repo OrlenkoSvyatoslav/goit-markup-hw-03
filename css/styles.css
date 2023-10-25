@@ -206,7 +206,7 @@ body {
 }
 
 .benefits-item-list {
-  width: calc((100%-72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .benefits-item-text {
