@@ -334,8 +334,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 264px;
-  margin-top: 16px;
+  max-width: 264px;
 }
 .logotype-span-studio-footer {
   color: #f4f4fd;
@@ -349,6 +348,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
+  margin-bottom: 16px;
 }
 
 .link-footer {
